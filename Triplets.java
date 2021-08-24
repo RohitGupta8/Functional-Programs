@@ -1,5 +1,4 @@
 package com.first;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
