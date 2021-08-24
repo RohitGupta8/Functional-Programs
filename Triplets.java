@@ -3,10 +3,9 @@ package com.first;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// A simple Java program to find three elements
-// whose sum is equal to zero
+
 class Triplets {
-    // Prints all triplets in arr[] with 0 sum
+    
     static void findTriplets(int[] arr, int n) {
         boolean found = false;
         for (int i = 0; i < n - 2; i++) {
@@ -25,13 +24,13 @@ class Triplets {
             }
         }
 
-        // If no triplet with 0 sum found in array
+      
         if (!found)
             System.out.println(" not exist ");
 
     }
 
-    // Driver code
+   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr= new int[9];
@@ -47,5 +46,3 @@ class Triplets {
 
     }
 }
-//This code is contributed by
-//Smitha Dinesh Semwal
